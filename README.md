@@ -19,7 +19,12 @@ The data will be provided by the Marvel API.
 * Fork the project from here: https://github.com/redconnect-io/frontend-exercise.git
 
 ### API
-* **Public key:** 3cb62d086d5debdeea139095cbb07fe4
+You will need to use the following url parameters in the request to the Marvel API.
+
+* **apikey:** 3cb62d086d5debdeea139095cbb07fe4
+* **ts:** 'redant'
+* **hash:** 140e85a50884cef76d614f6dacada288
+
 * **Documentation:** [http://developer.marvel.com/documentation/generalinfo](http://developer.marvel.com/documentation/generalinfo)
 * **List of end points:** [http://developer.marvel.com/docs](http://developer.marvel.com/docs)
 * **Image formats** [http://developer.marvel.com/documentation/images](http://developer.marvel.com/documentation/images)
