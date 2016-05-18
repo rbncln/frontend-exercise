@@ -29,6 +29,12 @@ You will need to use the following url to request the comics endpoint from the M
 - **List of end points:** [http://developer.marvel.com/docs](http://developer.marvel.com/docs)
 - **Image formats** [http://developer.marvel.com/documentation/images](http://developer.marvel.com/documentation/images)
 
+#### Images
+
+The API will provide part of the image url and the extension. To get the full valid URL you will need to select an image size and append into the URL (sizes are show within the Image formats link above). For example the following link is using 'portrait_uncanny' image size.
+
+http://i.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_uncanny.jpg
+
 ### Favourites
 
 To open the favourites panel (```#favourites-panel```) you need to add a class of ```open```. Toggling this class will show/hide the panel.
