@@ -19,11 +19,9 @@ The data will be provided by the Marvel API.
 * Fork the project from here: https://github.com/redconnect-io/frontend-exercise.git
 
 ### API
-You will need to use the following url to request the comics endpoint from the Marvel API.
+You will need to use the following url to request the comics endpoint from the Marvel API:
 
-```
-https://gateway.marvel.com/v1/public/comics?apikey=3cb62d086d5debdeea139095cbb07fe4&ts=redant&hash=140e85a50884cef76d614f6dacada288
-```
+[https://gateway.marvel.com/v1/public/comics?apikey=3cb62d086d5debdeea139095cbb07fe4&ts=redant&hash=140e85a50884cef76d614f6dacada288](https://gateway.marvel.com/v1/public/comics?apikey=3cb62d086d5debdeea139095cbb07fe4&ts=redant&hash=140e85a50884cef76d614f6dacada288)
 
 #### Additional details
 
