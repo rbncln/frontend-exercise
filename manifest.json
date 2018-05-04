@@ -1,0 +1,8 @@
+{
+  "short_name": "Red Ant Comics",
+  "name": "Red Ant Comics",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
