@@ -2,12 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
-// React components
 import Header from "./components/header";
 import ComicList from "./components/comicList";
 import FavouritesList from "./components/favouritesList";
-
-// Rest API-related Services
 import ComicsService from "./services/comicsService";
 import registerServiceWorker from "./registerServiceWorker";
 
@@ -21,7 +18,6 @@ class Container extends React.Component {
       comicData: [],
       showFavourites: false
     };
-    // using binding - out of date?
     this.addFavourite = this.addFavourite.bind(this);
     this.removeFavourite = this.removeFavourite.bind(this);
     this.toggleFavourites = this.toggleFavourites.bind(this);
